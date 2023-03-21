@@ -1,0 +1,12 @@
+<form method='POST'>
+
+    {% csrf_token %} 
+
+    title{{form.title}}
+
+    <br>
+
+    content{{form.content}}
+    
+    <button type='submit'>Guardar</button>
+</form>
